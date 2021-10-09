@@ -1,0 +1,80 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #3D3D3D;
+    line-height: 2;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+header img{
+    width: 100%;
+}
+.inner-container{
+    width: 600px;
+    margin: 20px auto;
+}
+.inner-container .logo{
+    width: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.inner-container p span{
+    font-weight: 600;
+}
+.user-code{
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+.verify-code p{
+    margin-block-start: 0;
+}
+.user-code{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.contact{
+    background: #f6f6f6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.social-icons img{
+    width: 25px;
+    margin-right: 15px;
+}
+.red-text{
+    color: red;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.copyright img{
+    margin-right: 10px;
+}
+@media only screen and (max-width: 920px){
+    .container{
+        max-width: 650px;
+    }
+    .inner-container{
+        max-width: 400px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .container{
+        max-width: 350px;
+    }
+    .inner-container{
+        max-width: 300px;
+    }
+}
